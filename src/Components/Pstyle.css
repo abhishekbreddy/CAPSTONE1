@@ -1,0 +1,12 @@
+.Information{
+    display: flex;
+    justify-content: space-around;
+   background-color: lightblue;
+}
+.text{
+    display: flex;
+}
+.title{
+    display: flex;
+    
+}
