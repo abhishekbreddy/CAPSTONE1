@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import student from '/home/abhi/Desktop/capstone1/job/src/Components/Student.js'
-
+//import 'bootstrap' path.
 
 function App() {
   return(<div><BrowserRouter>
