@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/abhi/Desktop/capstone1/job/src/Components/cstyle.css'
+import './Components/cstyle.css'
 export default class Contact extends React.Component{
     render(){
         return(<div className="add"><h1 >Address:</h1>
