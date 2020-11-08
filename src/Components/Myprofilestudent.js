@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/abhi/Desktop/capstone1/job/src/Components/Pstyle.css'
+import '../Components/Pstyle.css'
 export default class Myprofilestudent extends React.Component{
   constructor()
   {
