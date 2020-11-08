@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from 'react'
-import Getdata from './Components/Servercall.js'
+import Getdata from '../Components/Servercall.js'
 
 function Applications(){
    useEffect(()=>{
