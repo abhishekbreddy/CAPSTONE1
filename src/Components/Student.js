@@ -1,12 +1,12 @@
 import React from 'react'
-import Home from '/home/abhi/Desktop/capstone1/job/src/Components/Home.js';
+import Home from '../Components/Home.js';
 
-import Navigation from '/home/abhi/Desktop/capstone1/job/src/Components/Navigation/Navigtion.js'
-import Companies from '/home/abhi/Desktop/capstone1/job/src/Components/Compnies.js'
-import Contact from '/home/abhi/Desktop/capstone1/job/src/Components/Contact.js'
-import  Applied from "/home/abhi/Desktop/capstone1/job/src/Components/Applied jobs.js";
-import Myprofilestudent from '/home/abhi/Desktop/capstone1/job/src/Components/Myprofilestudent.js'
-import Signin from '/home/abhi/Desktop/capstone1/job/src/Components/Signin.js'
+import Navigation from '../Components/Navigation/Navigtion.js'
+import Companies from '../Components/Compnies.js'
+import Contact from '../Components/Contact.js'
+import  Applied from "../Components/Applied jobs.js";
+import Myprofilestudent from '../Components/Myprofilestudent.js'
+import Signin from '../Components/Signin.js'
 import { Route } from 'react-router-dom';
 
  class Student extends React.Component{
