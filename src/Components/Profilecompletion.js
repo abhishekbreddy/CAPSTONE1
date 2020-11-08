@@ -75,15 +75,13 @@ export default class Myprofilestudent extends React.Component{
               />
             </div>
     
-            <div className="form-group">
+            <div className="form-group"><label>companyid</label>
               <input type="file" className="form-control" 
               onChange={(e)=>this.setState({
                 ...this.state,
                 companyid:e.target.value
               })}
               />
-              
-            </div>
     <input value="SUBMIT" type="submit" className="btn btn-primary font-weight-bold mt-3 mx-auto" onClick={this.getdata} />
                   
           
