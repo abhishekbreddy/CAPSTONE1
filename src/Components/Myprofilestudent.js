@@ -15,7 +15,7 @@ export default class Myprofilestudent extends React.Component{
       
   
         
-        selectedFile: null
+        
 
   
   }; 
@@ -80,7 +80,7 @@ export default class Myprofilestudent extends React.Component{
               />
             </div>
     
-            <div className="form-group">
+            <div className="form-group"><label>collegeid
               <input type="file" className="form-control" 
               onChange={(e)=>this.setState({
                 ...this.state,
@@ -89,6 +89,25 @@ export default class Myprofilestudent extends React.Component{
               />
               
             </div>
+</div>
+            <div className="form-group"><label>Certificate</label>
+            <input type="file" className="form-control" 
+            onChange={(e)=>this.setState({
+              ...this.state,
+              Certificate:e.target.value
+            })}
+            />
+            
+          </div>
+          <div className="form-group"><label>Resume</label>
+          <input type="file" className="form-control" 
+          onChange={(e)=>this.setState({
+            ...this.state,
+          Resume:e.target.value
+          })}
+          />
+          
+        </div>
     <input value="SUBMIT" type="submit" className="btn btn-primary font-weight-bold mt-3 mx-auto" onClick={this.getdata} />
                   
           
