@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
-import Search from '/home/abhi/Desktop/capstone1/job/src/Components/Search.js'
-import Results from '/home/abhi/Desktop/capstone1/job/src/Components/Results.js'
-import Popup from '/home/abhi/Desktop/capstone1/job/src/Components/Popup.js'
+import Search from '../Components/Search.js'
+import Results from '../Components/Results.js'
+import Popup from '../Components/Popup.js'
 
 function Joblist() {
   const [state, setState] = useState({    // we destructured it
